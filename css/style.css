@@ -1,0 +1,417 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.button {
+  display: flex;
+  width: 130px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  font-size: 13px;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  border: solid 1px #000000;
+  /* background: linear-gradient(to right, #2d1a72, #4c77ae); */
+  color: #000000;
+  transition: ease-in-out 0.2s;
+}
+
+.button:hover {
+  box-shadow: 0 0 3px 2px #000000;
+  transition: ease-in-out 0.2s;
+}
+
+.main-box {
+  box-shadow: 0 0 5px 5px #000000;
+}
+
+/* <div class="download-pdf">
+  <a class="button" href="./лаура_берлін.pdf" download>завантажити резюме
+     <img src="./img/download_white.svg" alt="download_pic">
+  </a>
+</div> */
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .wrapper {
+    background: linear-gradient(to right, #ffffff, #757474);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .photo-property {
+    border-radius: 10px;
+    border: solid 2px #757474;
+    width: 319px;
+  }
+
+  .personal-info {
+    font-family: Rubik, sans-serif;
+    display: block;
+    width: 293px;
+    margin: auto;
+  }
+
+  .personal-info__title {
+    font-family: Rubik, sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .personal-info__position {
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .personal-info__income {
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .info-position__part {
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+  }
+
+  .personal-info__adress {
+    margin-bottom: 20px;
+  }
+  .info-contacts__list {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .personal-info__contacts {
+    margin-bottom: 20px;
+  }
+
+  .main {
+    display: block;
+    width: 319px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px 5px #000000;
+    padding-top: 10px;
+    border-radius: 5px;
+  }
+
+  .main-foto {
+    display: block;
+    width: 290px;
+    margin: auto;
+  }
+
+  .main-head {
+    display: block;
+    width: 319px;
+  }
+
+  .main-info {
+    font-family: Rubik, sans-serif;
+    padding-right: 10px;
+  }
+
+  .main-skills__title {
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    display: flex;
+    line-height: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 8px;
+  }
+  .exp-activity {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .exp-activity__list {
+    display: block;
+  }
+
+  .exp-subtitle {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .edu-subtitle {
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+
+  .add-subtitle {
+    margin-left: 10px;
+  }
+
+  .li-style {
+    display: flex;
+    position: relative;
+    margin-left: 13px;
+    font-size: 15px;
+    align-items: center;
+  }
+
+  .li-style::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    right: 300px;
+    align-items: center;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #000000;
+  }
+
+  .li-styleP {
+    display: flex;
+    position: relative;
+    margin-left: 13px;
+    font-size: 15px;
+    /* align-items: center; */
+  }
+
+  .li-styleP::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    right: 300px;
+    top: 4px;
+    align-items: center;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #000000;
+  }
+  .main-recommendation {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  .wrapper {
+    background: linear-gradient(to right, #ffffff, #757474);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .photo-property {
+    border-radius: 10px;
+    border: solid 2px #757474;
+    width: 319px;
+    margin-bottom: 30px;
+  }
+
+  .personal-info {
+    font-family: Rubik, sans-serif;
+    display: block;
+    width: 293px;
+    margin: auto;
+  }
+
+  .personal-info__title {
+    font-family: Rubik, sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .personal-info__position {
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .personal-info__income {
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .info-position__part {
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+  }
+
+  .personal-info__adress {
+    margin-bottom: 20px;
+  }
+  .info-contacts__list {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .personal-info__contacts {
+    margin-bottom: 20px;
+  }
+
+  .main {
+    display: block;
+    width: 768px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px 5px #000000;
+    padding-top: 10px;
+    border-radius: 5px;
+  }
+
+  .main-foto {
+    display: block;
+    width: 290px;
+    margin: auto;
+  }
+
+  .main-head {
+    display: flex;
+    width: 768px;
+  }
+
+  .main-info {
+    font-family: Rubik, sans-serif;
+  }
+
+  .main-skills__title {
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    display: flex;
+    line-height: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 8px;
+  }
+  .exp-activity {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .exp-activity__list {
+    display: block;
+  }
+
+  .exp-subtitle {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .edu-subtitle {
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+
+  .add-subtitle {
+    margin-left: 10px;
+  }
+
+  .li-style {
+    display: flex;
+    position: relative;
+    margin-left: 23px;
+    font-size: 15px;
+    align-items: center;
+  }
+
+  .li-style::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    right: 750px;
+    align-items: center;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #000000;
+  }
+
+  .li-styleP {
+    display: flex;
+    position: relative;
+    margin-left: 23px;
+    font-size: 15px;
+    /* align-items: center; */
+  }
+
+  .li-styleP::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    right: 750px;
+    top: 4px;
+    align-items: center;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #000000;
+  }
+  .main-recommendation {
+    margin-left: 10px;
+  }
+  /* .li-style {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+
+  .li-style::before {
+    content: " ";
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #000000;
+  } */
+}
